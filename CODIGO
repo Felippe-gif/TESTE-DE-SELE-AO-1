@@ -1,0 +1,9 @@
+A =int(input('Digite numero A :'))
+B =int(input('Digite numero B :'))
+C =int(input('Digite numero C :'))
+D =int(input('Digite numero D :'))
+
+if A % 2 == 0 and A + B < C + D and B > C and D > A:
+            print(f'Valores aceitos')
+else:
+            print(f'Valores nao aceitos')
